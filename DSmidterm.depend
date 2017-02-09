@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1418200947 source:/home/ali/Documents/University/3/DS/DSmidterm/main.cpp
+	"AgencyList.h"
+	"AgencyNode.h"
+	"ServiceList.h"
+	"ServiceNode.h"
+	"Queuee.h"
+	"Info.h"
+	"struc.h"
+	"AgencyList"
+	"AgencyNode"
+	"ServiceList"
+	"ServiceNode"
+	"Queuee"
+	"Info"
+	"struc"
+	"string"
+	<iostream>
+
+1418125307 source:/home/ali/Documents/University/3/DS/DSmidterm/src/AgencyList.cpp
+	"AgencyList.h"
+	"AgencyNode.h"
+	<iostream>
+
+1418113696 /home/ali/Documents/University/3/DS/DSmidterm/include/AgencyList.h
+	"Info.h"
+	"AgencyNode.h"
+	"ServiceList.h"
+
+1418119827 /home/ali/Documents/University/3/DS/DSmidterm/include/Info.h
+	"string"
+
+1418117423 /home/ali/Documents/University/3/DS/DSmidterm/include/AgencyNode.h
+	"Info.h"
+	"Queuee.h"
+	"ServiceNode.h"
+
+1418116389 /home/ali/Documents/University/3/DS/DSmidterm/include/Queuee.h
+	<vector>
+	<cmath>
+	<struc.h>
+
+1418120060 /home/ali/Documents/University/3/DS/DSmidterm/include/struc.h
+	<bits/stringfwd.h>
+	<string>
+
+1418120309 /home/ali/Documents/University/3/DS/DSmidterm/include/ServiceNode.h
+	"ServiceList.h"
+	<Info.h>
+
+1418121948 /home/ali/Documents/University/3/DS/DSmidterm/include/ServiceList.h
+	"ServiceNode.h"
+	<Info.h>
+
+1418117444 source:/home/ali/Documents/University/3/DS/DSmidterm/src/AgencyNode.cpp
+	<AgencyNode.h>
+	<iostream>
+
+1418113841 source:/home/ali/Documents/University/3/DS/DSmidterm/src/Info.cpp
+
+1418200308 source:/home/ali/Documents/University/3/DS/DSmidterm/src/Queuee.cpp
+	<arpa/nameser.h>
+	<Queuee.h>
+	<iostream>
+	<string>
+
+1418149907 source:/home/ali/Documents/University/3/DS/DSmidterm/src/ServiceList.cpp
+	"ServiceNode.h"
+	<Info.h>
+	<iostream>
+
+1418122895 source:/home/ali/Documents/University/3/DS/DSmidterm/src/ServiceNode.cpp
+	"ServiceList.h"
+	<iostream>
+
+1418113725 source:/home/ali/Documents/University/3/DS/DSmidterm/src/struc.cpp
+	"struc.h"
+

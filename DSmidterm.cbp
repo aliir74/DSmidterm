@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DSmidterm" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/DSmidterm" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/DSmidterm" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/AgencyList.h" />
+		<Unit filename="include/AgencyNode.h" />
+		<Unit filename="include/Info.h" />
+		<Unit filename="include/Queuee.h" />
+		<Unit filename="include/ServiceList.h" />
+		<Unit filename="include/ServiceNode.h" />
+		<Unit filename="include/struc.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/AgencyList.cpp" />
+		<Unit filename="src/AgencyNode.cpp" />
+		<Unit filename="src/Info.cpp" />
+		<Unit filename="src/Queuee.cpp" />
+		<Unit filename="src/ServiceList.cpp" />
+		<Unit filename="src/ServiceNode.cpp" />
+		<Unit filename="src/struc.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
